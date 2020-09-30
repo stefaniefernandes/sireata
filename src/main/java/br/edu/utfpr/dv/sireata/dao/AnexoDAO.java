@@ -10,7 +10,7 @@ import java.util.List;
 
 import br.edu.utfpr.dv.sireata.model.Anexo;
 
-public class AnexoDAO {
+public class AnexoDAO extends CrudDAO{
 	
 	public Anexo buscarPorId(int id) throws SQLException{
 		Connection conn = null;

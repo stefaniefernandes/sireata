@@ -1,5 +1,9 @@
-package br.edu.utfpr.dv.sireata.dao.strategy;
+package br.edu.utfpr.dv.sireata.dao;
 
+import br.edu.utfpr.dv.sireata.dao.strategy.CreateDAO;
+import br.edu.utfpr.dv.sireata.dao.strategy.DeleteDAO;
+import br.edu.utfpr.dv.sireata.dao.strategy.ReadDAO;
+import br.edu.utfpr.dv.sireata.dao.strategy.UpdateDAO;
 import java.sql.SQLException;
 import java.util.List;
 
